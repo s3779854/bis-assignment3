@@ -1,0 +1,367 @@
+header {
+	color: red;
+	text-align: center;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+	background-color: black;
+	color: white;
+	height: 40px;
+	font-size: 11px;
+}
+
+.team {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-image: linear-gradient(pink, white, rgb(252, 199, 101));
+}
+
+body {
+	color: black;
+	text-align: justified;
+    background-image: linear-gradient(pink, rgb(252, 199, 101));
+	box-sizing: border-box;
+	width: 80%;
+	min-width: 600px;
+	max-width: 1800px;
+	margin: 0 auto;
+	border: 2px solid black ;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn{
+  background-image: linear-gradient(pink, rgb(252, 199, 101));
+  color: black;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(rgb(209, 127, 140), rgb(182, 138, 55));
+  color: black;
+}
+
+h1 {
+ color: black;
+ font-size:40px;
+ }
+h2 {
+ color:black;
+ font-size:18px;
+ }
+
+h3 {
+	color:black;
+	font-size:24px;
+}
+
+h4 {
+	color:black;
+  font-size:30px;
+	color: red;
+	text-align: center;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+	background-color: black;
+	color: white;
+	height: 40px;
+	font-size: 11px;
+}
+
+.team {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-image: linear-gradient(pink, white, rgb(252, 199, 101));
+}
+
+body {
+	color: black;
+	text-align: justified;
+    background-image: linear-gradient(pink, rgb(252, 199, 101));
+	box-sizing: border-box;
+	width: 80%;
+	min-width: 600px;
+	max-width: 1800px;
+	margin: 0 auto;
+	border: 2px solid black ;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn{
+  background-image: linear-gradient(pink, rgb(252, 199, 101));
+  color: black;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(rgb(209, 127, 140), rgb(182, 138, 55));
+  color: black;
+}
+
+h1 {
+ color: black;
+ font-size:40px;
+ }
+h2 {
+ color:black;
+ font-size:18px;
+ }
+
+h3 {
+	color:black;
+	font-size:24px;
+}
+
+h4 {
+	color:black;
+	font-size:30px;
+}
+
+img {
+	border: 1px solid black;
+	border-width: 2px;
+}
+	
+.float-img {
+  width:400px;
+  text-align:left;
+  display:inline-block;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: centre;
+  padding: 8px;
+}
+
+#ResourcesAndTools {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ResourcesAndTools td, #ResourcesAndTools th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ResourcesAndTools tr:nth-child(even){background-color: #f2f2f2;}
+
+#ResourcesAndTools tr:nth-child(odd){background-color: #ffffffb9;}
+
+#ResourcesAndTools th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cc1940;
+  color: rgb(255, 255, 255);
+}
+
+
+.float-dp {
+	float: left;
+	clear: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	padding: 2px;
+}
+
+.box {
+	display: inline-block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 14px;
+  background-color: black;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(rgb(156, 141, 144), rgb(184, 146, 70));
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: linear-gradient(rgb(156, 141, 144), rgb(184, 146, 70));
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+.float-img {
+  width:400px;
+  text-align:left;
+  display:inline-block;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  border-width: 2;
+}
+
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: centre;
+  padding: 8px;
+}
+
+#ResourcesAndTools {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ResourcesAndTools td, #ResourcesAndTools th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ResourcesAndTools tr:nth-child(even){background-color: #f2f2f2;}
+
+#ResourcesAndTools tr:nth-child(odd){background-color: #ffffffb9;}
+
+#ResourcesAndTools th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cc1940;
+  color: rgb(255, 255, 255);
+}
+
+
+.float-dp {
+	float: left;
+	clear: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	padding: 2px;
+}
+
+.box {
+	display: inline-block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 14px;
+  background-color: black;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(rgb(156, 141, 144), rgb(184, 146, 70));
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: linear-gradient(rgb(156, 141, 144), rgb(184, 146, 70));
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+

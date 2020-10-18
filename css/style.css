@@ -202,6 +202,23 @@ td, th {
   color: rgb(255, 255, 255);
 }
 
+#OutcomeTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#OutcomeTable td, #OutcomeTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#OutcomeTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#OutcomeTable tr:nth-child(odd){background-color: #ffffffb9;}
+
+
+
 
 .float-dp {
 	float: left;
